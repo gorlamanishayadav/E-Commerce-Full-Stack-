@@ -1,0 +1,28 @@
+# Environment variables
+.env
+.env.example
+.env.eaxample
+.env.*
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv
+.venv/
+venv/
+ENV/
+env/
+
+# Database
+*.sqlite3
+db.sqlite3
+
+# Media
+media/
+
+# Logs
+*.log

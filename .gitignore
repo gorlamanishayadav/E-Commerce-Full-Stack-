@@ -1,0 +1,57 @@
+# Environment variables
+.env
+.env.example
+.env.eaxample
+.env.*
+*.env
+
+# Python / Django
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv
+.venv/
+venv/
+ENV/
+env/
+backend/.venv
+backend/.venv/
+backend/venv/
+backend/env/
+db.sqlite3
+backend/db.sqlite3
+media/
+backend/media/
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+build/
+frontend/build/
+dist/
+dist-ssr/
+
+# Logs
+*.log
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor / OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+start_all.js
+run_app.bat
+run_app.ps1

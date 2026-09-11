@@ -1,0 +1,13 @@
+{
+  "name": "ecommerce-platform",
+  "version": "1.0.0",
+  "description": "Full-stack E-Commerce Platform with Django REST Framework, MySQL, JWT, and React",
+  "scripts": {
+    "start": "node start_all.js",
+    "backend": "cd backend && .\\.venv\\Scripts\\python.exe manage.py runserver 8000",
+    "frontend": "cd frontend && npm start",
+    "seed": "cd backend && .\\.venv\\Scripts\\python.exe seed_data.py",
+    "test:backend": "cd backend && .\\.venv\\Scripts\\python.exe verify_backend.py",
+    "build:frontend": "cd frontend && npm run build"
+  }
+}
