@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -201,3 +202,5 @@ CORS_ALLOW_CREDENTIALS = True
 cors_origins = os.getenv('CORS_ALLOWED_ORIGINS', '')
 if cors_origins:
     CORS_ALLOWED_ORIGINS = [orig.strip() for orig in cors_origins.split(',') if orig.strip()]
+
+CORS_ALLOW_ALL_ORIGINS = True
